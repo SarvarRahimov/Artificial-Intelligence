@@ -8,11 +8,12 @@ def kub_hesabla(n):
 
 #3) birlesdir adlı funksiya yaradın ki, iki söz qəbul etsin və onları boşluqla birləşdirib qaytarsın.
 def birlesdir(soz1, soz2):
-    return f"{soz1} {soz2}"
+    result=  soz1 + " " + soz2
+    return result
 
 #4) cap_et adlı funksiya yaradın ki, bir listi arqument olaraq alsın və listin hər elementini for ilə çap etsin.
-def cap_et(lst):
-    for item in lst:
+def cap_et(list):
+    for item in list:
         print(item)
 
 #5) toplam adlı funksiya yaradın ki, istənilən sayda rəqəmi (*args) qəbul edib onların cəmini qaytarsın
